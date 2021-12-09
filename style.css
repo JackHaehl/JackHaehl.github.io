@@ -1,0 +1,16 @@
+body {
+    margin-top: 60px;
+}
+.div-red {
+    background-color: #f00;
+}
+.imgset {
+    border-radius: 50%;
+}
+.padContainer {
+    width: 15%;
+}
+
+.navText {
+    font-size: 20px;
+}
