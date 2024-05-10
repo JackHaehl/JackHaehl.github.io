@@ -1,5 +1,14 @@
+.dark-surface {
+    background-color: #121212;
+}
+
+.jumbotron {
+    margin-top: 0;
+    background-color: #242424;
+}
+
 body {
-    margin-top: 60px;
+    margin-top: 0px;
 }
 .div-red {
     background-color: #f00;
@@ -13,4 +22,20 @@ body {
 
 .navText {
     font-size: 20px;
+}
+
+p {
+    color: #dddddd;
+}
+
+h1 {
+    color: #dddddd;
+}
+
+h2 {
+    color: #dddddd;
+}
+
+h3 {
+    color: #dddddd;
 }
