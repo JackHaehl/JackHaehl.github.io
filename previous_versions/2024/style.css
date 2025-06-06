@@ -1,0 +1,89 @@
+.dark-surface {
+    background-color: #121212;
+}
+
+.jumbotron {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 1%;
+    background-color: #242424;
+}
+
+body {
+    margin-top: 0px;
+}
+
+iframe {
+    width: 100%;
+    height: width*0.5625;
+
+}
+.div-red {
+    background-color: #f00;
+}
+.imgset {
+    border-radius: 50%;
+}
+.padContainer {
+    width: 15%;
+}
+
+.navText {
+    font-size: 20px;
+}
+
+p {
+    color: #dddddd;
+}
+
+h1 {
+    color: #dddddd;
+}
+
+h2 {
+    color: #dddddd;
+}
+
+h3 {
+    color: #dddddd;
+}
+
+.align-right {
+    text-align: right !important;
+}
+
+.align-center {
+    text-align: center !important;
+}
+
+.align-left {
+    text-align: left !important;
+}
+
+.headshot {
+    padding-top: 10px;
+    width: 50%;
+    height: width;
+}
+
+.project-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.project-title {
+    text-align: center !important;
+    min-height: 2.5em;
+}
+
+.project-video {
+    flex-shrink: 0;
+}
+
+.project-description {
+    text-align: center !important;
+    flex-grow: 1;
+}
+
