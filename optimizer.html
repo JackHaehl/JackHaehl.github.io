@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Essential Washing Presentation Optimizer</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <aside class="sidebar">
+      <div class="brand">
+        <span class="brand-mark">EW</span>
+        <div>
+          <h1>Presentation Optimizer</h1>
+          <p>Choose a property plan JSON file.</p>
+        </div>
+      </div>
+      <div id="fileList" class="file-list"></div>
+    </aside>
+
+    <main class="workspace">
+      <section class="toolbar">
+        <div>
+          <p class="eyebrow">Selected Plan</p>
+          <h2 id="customerName">No file selected</h2>
+        </div>
+        <form id="budgetForm" class="budget-form">
+          <label for="budgetInput">Yearly Budget</label>
+          <div class="budget-row">
+            <input id="budgetInput" name="budget" type="number" min="0" step="0.01" placeholder="0.00">
+            <button type="submit">Generate Quote</button>
+          </div>
+        </form>
+      </section>
+
+      <section id="emptyState" class="empty-state">
+        Select a JSON data file to view its inputs and generate the ideal and budget-optimized tables.
+      </section>
+
+      <section id="planView" class="plan-view hidden">
+        <div class="summary-grid">
+          <div>
+            <p class="metric-label">Quotes</p>
+            <p id="quoteCount" class="metric-value">0</p>
+          </div>
+          <div>
+            <p class="metric-label">Original Budget</p>
+            <p id="originalBudget" class="metric-value">$0</p>
+          </div>
+          <div>
+            <p class="metric-label">Ideal Operating</p>
+            <p id="idealTotal" class="metric-value">$0</p>
+          </div>
+          <div>
+            <p class="metric-label">Current Optimized</p>
+            <p id="optimizedTotal" class="metric-value">$0</p>
+          </div>
+          <div>
+            <p class="metric-label">Decay Optimized</p>
+            <p id="decayOptimizedTotal" class="metric-value">$0</p>
+          </div>
+        </div>
+
+        <div class="split">
+          <section class="panel">
+            <div class="panel-header">
+              <h3>Monthly Priority Schedule</h3>
+            </div>
+            <div id="monthSummary" class="month-summary"></div>
+          </section>
+
+          <section class="panel">
+            <div class="panel-header">
+              <h3>Quote Inputs</h3>
+            </div>
+            <div id="quoteSummary" class="quote-summary"></div>
+          </section>
+        </div>
+
+        <section class="panel table-panel">
+          <div class="panel-header table-header">
+            <div>
+              <p class="eyebrow">Ideal Plan</p>
+              <h3>Recommended Property Presentation Calendar</h3>
+            </div>
+            <p id="idealMeta" class="table-meta"></p>
+          </div>
+          <div id="idealTable" class="table-wrap"></div>
+        </section>
+
+        <section class="panel table-panel">
+          <div class="panel-header table-header">
+            <div>
+              <p class="eyebrow">Optimized To Budget</p>
+              <h3>Current Priority-Preserving Optimizer</h3>
+            </div>
+            <p id="optimizedMeta" class="table-meta"></p>
+          </div>
+          <div id="optimizedTable" class="table-wrap"></div>
+        </section>
+
+        <section class="panel table-panel">
+          <div class="panel-header table-header">
+            <div>
+              <p class="eyebrow">Optimized To Budget</p>
+              <h3>Decay-Based Optimizer</h3>
+            </div>
+            <p id="decayOptimizedMeta" class="table-meta"></p>
+          </div>
+          <div id="decayOptimizedTable" class="table-wrap"></div>
+        </section>
+      </section>
+    </main>
+
+    <script src="optimizer.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

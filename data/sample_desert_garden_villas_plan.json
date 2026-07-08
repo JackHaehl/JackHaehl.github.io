@@ -1,0 +1,69 @@
+{
+  "customer": "Desert Garden Villas",
+  "annual_budget": 14400,
+  "months": [
+    { "month": "Jan", "leasing_activity": 5, "amenity_usage": 4 },
+    { "month": "Feb", "leasing_activity": 6, "amenity_usage": 4 },
+    { "month": "Mar", "leasing_activity": 7, "amenity_usage": 5 },
+    { "month": "April", "leasing_activity": 10, "amenity_usage": 6 },
+    { "month": "May", "leasing_activity": 9, "amenity_usage": 8 },
+    { "month": "June", "leasing_activity": 8, "amenity_usage": 10 },
+    { "month": "July", "leasing_activity": 7, "amenity_usage": 10 },
+    { "month": "August", "leasing_activity": 6, "amenity_usage": 10 },
+    { "month": "Sept", "leasing_activity": 5, "amenity_usage": 7 },
+    { "month": "Oct", "leasing_activity": 4, "amenity_usage": 6 },
+    { "month": "Nov", "leasing_activity": 3, "amenity_usage": 4 },
+    { "month": "Dec", "leasing_activity": 2, "amenity_usage": 3 }
+  ],
+  "quotes": [
+    {
+      "name": "Clubhouse Entry Doors and Leasing Office Storefront",
+      "price": 510,
+      "ppi_score": 93,
+      "service_efficiency_score": 10,
+      "tags": ["leasing", "lobby", "entry"]
+    },
+    {
+      "name": "Primary Pool Fence Glass and Gate Panels",
+      "price": 675,
+      "ppi_score": 95,
+      "service_efficiency_score": 10,
+      "tags": ["pool", "amenity"]
+    },
+    {
+      "name": "Courtyard Amenity Room Sliding Glass",
+      "price": 450,
+      "ppi_score": 86,
+      "service_efficiency_score": 9,
+      "tags": ["courtyard", "amenity", "lounge"]
+    },
+    {
+      "name": "Model Unit Patio Doors and Front Windows",
+      "price": 325,
+      "ppi_score": 89,
+      "service_efficiency_score": 10,
+      "tags": ["leasing", "model", "entry"]
+    },
+    {
+      "name": "Perimeter Building Windows Facing Desert Wash",
+      "price": 1425,
+      "ppi_score": 77,
+      "service_efficiency_score": 7,
+      "tags": ["exterior", "desert", "street"]
+    },
+    {
+      "name": "Dog Park Shade Structure Glass",
+      "price": 240,
+      "ppi_score": 58,
+      "service_efficiency_score": 9,
+      "tags": ["dog park", "amenity"]
+    },
+    {
+      "name": "Back-of-House Maintenance Office Windows",
+      "price": 180,
+      "ppi_score": 47,
+      "service_efficiency_score": 10,
+      "tags": ["back of house"]
+    }
+  ]
+}

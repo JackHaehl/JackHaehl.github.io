@@ -1,0 +1,95 @@
+{
+  "customer": "Modera Scottsdale & Reserve",
+  "annual_budget": 8603.3,
+  "months": [
+    { "month": "Jan", "leasing_activity": 5, "amenity_usage": 4 },
+    { "month": "Feb", "leasing_activity": 6, "amenity_usage": 4 },
+    { "month": "Mar", "leasing_activity": 7, "amenity_usage": 5 },
+    { "month": "April", "leasing_activity": 10, "amenity_usage": 6 },
+    { "month": "May", "leasing_activity": 9, "amenity_usage": 8 },
+    { "month": "June", "leasing_activity": 8, "amenity_usage": 10 },
+    { "month": "July", "leasing_activity": 7, "amenity_usage": 10 },
+    { "month": "August", "leasing_activity": 6, "amenity_usage": 10 },
+    { "month": "Sept", "leasing_activity": 5, "amenity_usage": 7 },
+    { "month": "Oct", "leasing_activity": 4, "amenity_usage": 6 },
+    { "month": "Nov", "leasing_activity": 3, "amenity_usage": 4 },
+    { "month": "Dec", "leasing_activity": 2, "amenity_usage": 3 }
+  ],
+  "quotes": [
+    {
+      "name": "Reserve Courtyard \"2-Up\" No Balconies (POOL)",
+      "price": 833.33,
+      "ppi_score": 88,
+      "service_efficiency_score": 10,
+      "tags": ["pool", "courtyard", "amenity"]
+    },
+    {
+      "name": "Reserve Back Glass of Common Area Interior/Exterior",
+      "price": 208.33,
+      "ppi_score": 88,
+      "service_efficiency_score": 10,
+      "tags": ["common area", "amenity"]
+    },
+    {
+      "name": "Scottsdale East Face on Scottsdale Rd. \"3-Up\" Includes Exterior Side Glass on Balcony Partitions",
+      "price": 2499.99,
+      "ppi_score": 89,
+      "service_efficiency_score": 10,
+      "tags": ["street", "leasing", "exterior"]
+    },
+    {
+      "name": "Scottsdale Courtyard #1 \"2-Up\" No Balconys (POOL)",
+      "price": 833.33,
+      "ppi_score": 88,
+      "service_efficiency_score": 10,
+      "tags": ["pool", "courtyard", "amenity"]
+    },
+    {
+      "name": "Scottsdale level 3 Lounge (Above Fidelity) Including Both Sides Balcony Glass",
+      "price": 833.33,
+      "ppi_score": 92,
+      "service_efficiency_score": 8,
+      "tags": ["lounge", "amenity", "leasing"]
+    },
+    {
+      "name": "Full Exterior Common Areas Reserve & Scottsdale Including Gyms",
+      "price": 1667.67,
+      "ppi_score": 88,
+      "service_efficiency_score": 8,
+      "tags": ["exterior", "gym", "amenity"]
+    },
+    {
+      "name": "Exterior Retail Space (All Fidelity to Front of Reserve Lobby Glass) no fountain area.",
+      "price": 1041.66,
+      "ppi_score": 98,
+      "service_efficiency_score": 10,
+      "tags": ["retail", "lobby", "street", "leasing"],
+      "bill_back": true,
+      "ideal_cleanings": 6
+    },
+    {
+      "name": "Scottsdale Back Glass of Lobby Area Facing Pool",
+      "price": 208.33,
+      "ppi_score": 95,
+      "service_efficiency_score": 10,
+      "tags": ["lobby", "pool", "amenity", "leasing"],
+      "ideal_cleanings": 3
+    },
+    {
+      "name": "Scottsdale Pool Glass Fence",
+      "price": 149,
+      "ppi_score": 95,
+      "service_efficiency_score": 10,
+      "tags": ["pool", "amenity"],
+      "ideal_cleanings": 3
+    },
+    {
+      "name": "Reserve Pool Glass Fence",
+      "price": 149,
+      "ppi_score": 95,
+      "service_efficiency_score": 10,
+      "tags": ["pool", "amenity"],
+      "ideal_cleanings": 3
+    }
+  ]
+}

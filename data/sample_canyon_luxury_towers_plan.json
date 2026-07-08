@@ -1,0 +1,71 @@
+{
+  "customer": "Canyon Luxury Towers",
+  "annual_budget": 28500,
+  "months": [
+    { "month": "Jan", "leasing_activity": 5, "amenity_usage": 4 },
+    { "month": "Feb", "leasing_activity": 6, "amenity_usage": 4 },
+    { "month": "Mar", "leasing_activity": 7, "amenity_usage": 5 },
+    { "month": "April", "leasing_activity": 10, "amenity_usage": 6 },
+    { "month": "May", "leasing_activity": 9, "amenity_usage": 8 },
+    { "month": "June", "leasing_activity": 8, "amenity_usage": 10 },
+    { "month": "July", "leasing_activity": 7, "amenity_usage": 10 },
+    { "month": "August", "leasing_activity": 6, "amenity_usage": 10 },
+    { "month": "Sept", "leasing_activity": 5, "amenity_usage": 7 },
+    { "month": "Oct", "leasing_activity": 4, "amenity_usage": 6 },
+    { "month": "Nov", "leasing_activity": 3, "amenity_usage": 4 },
+    { "month": "Dec", "leasing_activity": 2, "amenity_usage": 3 }
+  ],
+  "quotes": [
+    {
+      "name": "Main Leasing Gallery Curtain Wall Interior/Exterior",
+      "price": 1275,
+      "ppi_score": 98,
+      "service_efficiency_score": 8,
+      "tags": ["leasing", "lobby", "entry", "street"]
+    },
+    {
+      "name": "Rooftop Sky Lounge Glass Railings and View Panels",
+      "price": 1850,
+      "ppi_score": 96,
+      "service_efficiency_score": 6,
+      "tags": ["lounge", "amenity", "leasing"]
+    },
+    {
+      "name": "Pool Deck Glass Fence and Cabana Doors",
+      "price": 925,
+      "ppi_score": 94,
+      "service_efficiency_score": 9,
+      "tags": ["pool", "amenity"]
+    },
+    {
+      "name": "Fitness Center Exterior Glass and Mirrors",
+      "price": 640,
+      "ppi_score": 87,
+      "service_efficiency_score": 9,
+      "tags": ["gym", "amenity"]
+    },
+    {
+      "name": "Tower East Street-Facing Balcony Partitions",
+      "price": 2850,
+      "ppi_score": 84,
+      "service_efficiency_score": 5,
+      "tags": ["street", "exterior", "leasing"]
+    },
+    {
+      "name": "North Parking Garage Stairwell Glass",
+      "price": 390,
+      "ppi_score": 62,
+      "service_efficiency_score": 10,
+      "tags": ["parking", "stairwell"]
+    },
+    {
+      "name": "Retail Restaurant Patio Glass Bill Back",
+      "price": 735,
+      "ppi_score": 91,
+      "service_efficiency_score": 9,
+      "tags": ["retail", "street", "leasing"],
+      "bill_back": true,
+      "ideal_cleanings": 4
+    }
+  ]
+}

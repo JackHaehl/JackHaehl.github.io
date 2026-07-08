@@ -1,0 +1,78 @@
+{
+  "customer": "Sonoran Resort Flats",
+  "annual_budget": 33000,
+  "months": [
+    { "month": "Jan", "leasing_activity": 5, "amenity_usage": 4 },
+    { "month": "Feb", "leasing_activity": 6, "amenity_usage": 4 },
+    { "month": "Mar", "leasing_activity": 7, "amenity_usage": 5 },
+    { "month": "April", "leasing_activity": 10, "amenity_usage": 6 },
+    { "month": "May", "leasing_activity": 9, "amenity_usage": 8 },
+    { "month": "June", "leasing_activity": 8, "amenity_usage": 10 },
+    { "month": "July", "leasing_activity": 7, "amenity_usage": 10 },
+    { "month": "August", "leasing_activity": 6, "amenity_usage": 10 },
+    { "month": "Sept", "leasing_activity": 5, "amenity_usage": 7 },
+    { "month": "Oct", "leasing_activity": 4, "amenity_usage": 6 },
+    { "month": "Nov", "leasing_activity": 3, "amenity_usage": 4 },
+    { "month": "Dec", "leasing_activity": 2, "amenity_usage": 3 }
+  ],
+  "quotes": [
+    {
+      "name": "Resort Pool Perimeter Glass and Fire Pit Wind Screens",
+      "price": 1525,
+      "ppi_score": 99,
+      "service_efficiency_score": 8,
+      "tags": ["pool", "amenity", "courtyard"]
+    },
+    {
+      "name": "Clubhouse Great Room Floor-to-Ceiling Glass",
+      "price": 1320,
+      "ppi_score": 96,
+      "service_efficiency_score": 8,
+      "tags": ["lounge", "amenity", "leasing", "lobby"]
+    },
+    {
+      "name": "Leasing Pavilion Entry Glass and Doors",
+      "price": 585,
+      "ppi_score": 94,
+      "service_efficiency_score": 10,
+      "tags": ["leasing", "entry", "lobby"]
+    },
+    {
+      "name": "Outdoor Kitchen and Ramada Glass Wind Panels",
+      "price": 720,
+      "ppi_score": 88,
+      "service_efficiency_score": 9,
+      "tags": ["amenity", "courtyard"]
+    },
+    {
+      "name": "Fitness and Yoga Studio Exterior Glass",
+      "price": 760,
+      "ppi_score": 84,
+      "service_efficiency_score": 9,
+      "tags": ["gym", "amenity"]
+    },
+    {
+      "name": "Building A West-Facing Balcony Glass Stack",
+      "price": 3100,
+      "ppi_score": 81,
+      "service_efficiency_score": 5,
+      "tags": ["exterior", "desert", "street"]
+    },
+    {
+      "name": "Interior Mailroom Glass",
+      "price": 225,
+      "ppi_score": 61,
+      "service_efficiency_score": 10,
+      "tags": ["mailroom", "resident"]
+    },
+    {
+      "name": "Cafe Tenant Patio Glass Bill Back",
+      "price": 465,
+      "ppi_score": 89,
+      "service_efficiency_score": 10,
+      "tags": ["retail", "amenity", "street"],
+      "bill_back": true,
+      "ideal_cleanings": 4
+    }
+  ]
+}

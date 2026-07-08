@@ -1,0 +1,69 @@
+{
+  "customer": "Suburban Courtyard Commons",
+  "annual_budget": 10400,
+  "months": [
+    { "month": "Jan", "leasing_activity": 5, "amenity_usage": 4 },
+    { "month": "Feb", "leasing_activity": 6, "amenity_usage": 4 },
+    { "month": "Mar", "leasing_activity": 7, "amenity_usage": 5 },
+    { "month": "April", "leasing_activity": 10, "amenity_usage": 6 },
+    { "month": "May", "leasing_activity": 9, "amenity_usage": 8 },
+    { "month": "June", "leasing_activity": 8, "amenity_usage": 10 },
+    { "month": "July", "leasing_activity": 7, "amenity_usage": 10 },
+    { "month": "August", "leasing_activity": 6, "amenity_usage": 10 },
+    { "month": "Sept", "leasing_activity": 5, "amenity_usage": 7 },
+    { "month": "Oct", "leasing_activity": 4, "amenity_usage": 6 },
+    { "month": "Nov", "leasing_activity": 3, "amenity_usage": 4 },
+    { "month": "Dec", "leasing_activity": 2, "amenity_usage": 3 }
+  ],
+  "quotes": [
+    {
+      "name": "Leasing Office Front Entry Glass",
+      "price": 360,
+      "ppi_score": 91,
+      "service_efficiency_score": 10,
+      "tags": ["leasing", "entry", "lobby"]
+    },
+    {
+      "name": "Clubroom and Coffee Bar Windows",
+      "price": 475,
+      "ppi_score": 87,
+      "service_efficiency_score": 9,
+      "tags": ["lounge", "amenity"]
+    },
+    {
+      "name": "Small Pool Fence Glass",
+      "price": 390,
+      "ppi_score": 90,
+      "service_efficiency_score": 10,
+      "tags": ["pool", "amenity"]
+    },
+    {
+      "name": "Fitness Center Storefront",
+      "price": 330,
+      "ppi_score": 78,
+      "service_efficiency_score": 10,
+      "tags": ["gym", "amenity"]
+    },
+    {
+      "name": "Model Pathway Windows",
+      "price": 290,
+      "ppi_score": 82,
+      "service_efficiency_score": 10,
+      "tags": ["leasing", "model"]
+    },
+    {
+      "name": "Rear Building Exterior Windows",
+      "price": 1120,
+      "ppi_score": 64,
+      "service_efficiency_score": 7,
+      "tags": ["exterior"]
+    },
+    {
+      "name": "Laundry Room Door Glass",
+      "price": 95,
+      "ppi_score": 52,
+      "service_efficiency_score": 10,
+      "tags": ["resident", "back of house"]
+    }
+  ]
+}

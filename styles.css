@@ -1,0 +1,422 @@
+:root {
+  --bg: #f5f6f3;
+  --panel: #ffffff;
+  --ink: #18231f;
+  --muted: #68736e;
+  --line: #d9dfd8;
+  --accent: #123d33;
+  --accent-soft: #e2eee9;
+  --green: #39c56d;
+  --yellow: #ffd629;
+  --orange: #ff9c39;
+  --red: #fb5f55;
+  --blue: #9dd6ff;
+  --purple: #d59bea;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--ink);
+  display: grid;
+  grid-template-columns: 320px minmax(0, 1fr);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.sidebar {
+  background: #102720;
+  color: #f8fbf8;
+  padding: 22px;
+  min-height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+.brand {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+.brand-mark {
+  width: 46px;
+  height: 46px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 17px;
+}
+
+.brand p,
+.file-meta,
+.eyebrow,
+.metric-label,
+.table-meta {
+  color: var(--muted);
+}
+
+.brand p {
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.file-list {
+  display: grid;
+  gap: 10px;
+}
+
+.file-button {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.06);
+  color: #f8fbf8;
+  text-align: left;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.file-button:hover,
+.file-button.active {
+  background: rgba(255, 255, 255, 0.14);
+  border-color: rgba(255, 255, 255, 0.32);
+}
+
+.file-title {
+  font-weight: 700;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.file-meta {
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 12px;
+}
+
+.workspace {
+  min-width: 0;
+  padding: 24px;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 11px;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 1.1;
+}
+
+.budget-form {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.budget-form label {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.budget-row {
+  display: flex;
+  gap: 8px;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+input {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 10px 12px;
+  min-width: 170px;
+}
+
+button {
+  border: 0;
+  background: var(--accent);
+  color: white;
+  border-radius: 6px;
+  padding: 10px 14px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
+.empty-state,
+.panel,
+.summary-grid > div {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.empty-state {
+  padding: 36px;
+  color: var(--muted);
+}
+
+.plan-view {
+  display: grid;
+  gap: 18px;
+}
+
+.hidden {
+  display: none;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.summary-grid > div {
+  padding: 14px;
+}
+
+.metric-label {
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.metric-value {
+  font-size: 24px;
+  font-weight: 850;
+  margin-top: 4px;
+}
+
+.split {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.9fr) minmax(360px, 1.1fr);
+  gap: 18px;
+}
+
+.panel {
+  min-width: 0;
+  overflow: hidden;
+}
+
+.panel-header {
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--line);
+}
+
+.panel-header h3 {
+  font-size: 16px;
+}
+
+.month-summary,
+.quote-summary {
+  padding: 12px;
+}
+
+.month-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.month-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.month-name,
+.quote-name {
+  font-weight: 800;
+}
+
+.scale-row,
+.quote-detail {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--muted);
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.quote-summary {
+  display: grid;
+  gap: 8px;
+  max-height: 360px;
+  overflow: auto;
+}
+
+.quote-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.tags {
+  color: var(--muted);
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 16px;
+}
+
+.table-meta {
+  font-size: 13px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.table-wrap {
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  min-width: 1280px;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+th,
+td {
+  border: 1px solid #cfd6cf;
+  padding: 6px 7px;
+  vertical-align: middle;
+}
+
+th {
+  background: #f1f4f0;
+  font-weight: 850;
+}
+
+.priority-row th {
+  color: #151515;
+  text-align: center;
+  font-size: 11px;
+}
+
+.priority-row .lease-5 {
+  background: #f5e66a;
+}
+
+.priority-row .lease-6,
+.priority-row .lease-7 {
+  background: var(--yellow);
+}
+
+.priority-row .lease-8,
+.priority-row .lease-9 {
+  background: var(--orange);
+}
+
+.priority-row .lease-10 {
+  background: var(--red);
+}
+
+.priority-row .amenity-8,
+.priority-row .amenity-9,
+.priority-row .amenity-10 {
+  background: var(--green);
+}
+
+.priority-row .amenity-7 {
+  background: var(--blue);
+}
+
+.priority-row .amenity-low {
+  background: var(--purple);
+}
+
+.service-col {
+  min-width: 330px;
+  max-width: 360px;
+  text-align: left;
+}
+
+.money,
+.number {
+  text-align: right;
+  white-space: nowrap;
+}
+
+.wash-cell {
+  background: #75e69a;
+  font-weight: 800;
+}
+
+.bill-back-cell {
+  background: #b8efc8;
+}
+
+.totals-row td {
+  font-weight: 900;
+  background: #f7faf7;
+}
+
+@media (max-width: 980px) {
+  body {
+    display: block;
+  }
+
+  .sidebar {
+    min-height: 0;
+    position: static;
+  }
+
+  .toolbar,
+  .split,
+  .summary-grid {
+    grid-template-columns: 1fr;
+    display: grid;
+  }
+
+  .month-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
